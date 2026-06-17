@@ -1,0 +1,38 @@
+{
+  "nav": {
+    "home": "Home",
+    "subjects": "Subjects",
+    "about": "About"
+  },
+  "home": {
+    "welcome": "Welcome to EduLearn",
+    "subtitle": "Your gateway to interactive learning. Explore subjects, dive into themes, and watch curated videos.",
+    "start_learning": "Start Learning",
+    "card1_title": "Explore Subjects",
+    "card1_text": "Browse a wide range of subjects from Math to Computer Science.",
+    "card2_title": "Dive into Themes",
+    "card2_text": "Each subject is organized into clear, manageable themes.",
+    "card3_title": "Watch & Learn",
+    "card3_text": "Get quick summaries and links to helpful YouTube videos."
+  },
+  "subjects_page": {
+    "heading": "Subjects",
+    "themes_explain": "Every subject is built from core themes that define its key areas. For example, Mathematics includes Algebra (equations and symbols), Geometry (shapes and space), and Calculus (rates of change). Each theme groups related topics together so you can study step by step. Pick a subject below to see its themes, then click a theme to find topic summaries and videos.",
+    "back_subjects": "Back to Subjects",
+    "back_themes": "Back to Themes",
+    "loading": "Loading..."
+  },
+  "about": {
+    "heading": "About EduLearn",
+    "p1": "EduLearn is a free educational platform designed to make learning simple and accessible. We organize knowledge into <strong>subjects</strong> and <strong>themes</strong>, provide quick summaries, and link to high-quality YouTube videos so you can dive deeper.",
+    "p2": "Whether you're a student brushing up on a topic or a curious mind exploring something new, EduLearn helps you find the right content fast.",
+    "how_title": "How it works",
+    "step1": "Pick a <strong>subject</strong> that interests you.",
+    "step2": "Browse its <strong>themes</strong> to narrow down your focus.",
+    "step3": "Read a quick <strong>summary</strong> and watch a recommended <strong>video</strong>.",
+    "built_with": "Built with PHP, MariaDB, and Bootstrap 5."
+  },
+  "footer": "All rights reserved.",
+  "watch": "Watch on YouTube",
+  "language": "Language"
+}
