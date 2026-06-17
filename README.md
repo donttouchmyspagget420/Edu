@@ -1,4 +1,4 @@
-# EduLearn
+# JenylOku
 
 Educational platform that organizes knowledge into subjects → themes → topics with summaries and YouTube video links. Built as a single-page app with multilingual support (English, Russian, Kazakh).
 
@@ -42,5 +42,6 @@ No package manager or build step required — everything runs via a web server w
 
 ## Authors
 
+- **Alyia70** — ideas & product manager/owner
 - **dont** — idea & requirements
 - **opencode** (big-pickle) — implementation

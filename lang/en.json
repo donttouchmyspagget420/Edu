@@ -5,7 +5,7 @@
     "about": "About"
   },
   "home": {
-    "welcome": "Welcome to EduLearn",
+    "welcome": "Welcome to JenylOku",
     "subtitle": "Your gateway to interactive learning. Explore subjects, dive into themes, and watch curated videos.",
     "start_learning": "Start Learning",
     "card1_title": "Explore Subjects",
@@ -23,8 +23,8 @@
     "loading": "Loading..."
   },
   "about": {
-    "heading": "About EduLearn",
-    "p1": "EduLearn is a free educational platform designed to make learning simple and accessible. We organize knowledge into <strong>subjects</strong> and <strong>themes</strong>, provide quick summaries, and link to high-quality YouTube videos so you can dive deeper.",
+    "heading": "About JenylOku",
+    "p1": "JenylOku is a free educational platform designed to make learning simple and accessible. We organize knowledge into <strong>subjects</strong> and <strong>themes</strong>, provide quick summaries, and link to high-quality YouTube videos so you can dive deeper.",
     "p2": "Whether you're a student brushing up on a topic or a curious mind exploring something new, EduLearn helps you find the right content fast.",
     "how_title": "How it works",
     "step1": "Pick a <strong>subject</strong> that interests you.",
