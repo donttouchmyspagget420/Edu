@@ -20,7 +20,9 @@
     "themes_explain": "Every subject is built from core themes that define its key areas. For example, Mathematics includes Algebra (equations and symbols), Geometry (shapes and space), and Calculus (rates of change). Each theme groups related topics together so you can study step by step. Pick a subject below to see its themes, then click a theme to find topic summaries and videos.",
     "back_subjects": "Back to Subjects",
     "back_themes": "Back to Themes",
-    "loading": "Loading..."
+    "loading": "Loading...",
+    "show_explanation": "Show Explanation",
+    "examples": "Examples"
   },
   "about": {
     "heading": "About JenylOku",

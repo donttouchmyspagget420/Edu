@@ -173,18 +173,28 @@ function loadTopics(themeId, themeName) {
     loading.classList.remove('d-none');
 
     api(`api.php?action=topics&theme_id=${themeId}`).then(topics => {
-        list.innerHTML = topics.map(topic => `
+        list.innerHTML = topics.map((topic, i) => `
             <div class="card border-0 shadow-sm mb-3 topic-card">
                 <div class="card-body p-4">
                     <div class="row align-items-center">
                         <div class="col-lg-8 mb-3 mb-lg-0">
                             <h5 class="fw-bold">${topic.title}</h5>
-                            <p class="text-muted mb-0">${topic.summary}</p>
                         </div>
                         <div class="col-lg-4 text-lg-end">
                             <a href="${topic.youtube_url}" target="_blank" class="btn btn-danger">
                                 <i class="bi bi-youtube me-1"></i> ${t('watch')}
                             </a>
+                        </div>
+                    </div>
+                    <div class="mt-3">
+                        <button class="btn btn-sm btn-outline-primary" type="button" data-bs-toggle="collapse" data-bs-target="#topic-${topic.id}" aria-expanded="false">
+                            <i class="bi bi-chevron-down me-1"></i> ${t('subjects_page.show_explanation')}
+                        </button>
+                        <div class="collapse mt-3" id="topic-${topic.id}">
+                            <div class="card card-body border-0 bg-light p-3">
+                                <p class="mb-2">${topic.summary}</p>
+                                ${topic.examples ? `<div class="mt-2 pt-2 border-top"><strong>${t('subjects_page.examples')}:</strong><p class="mb-0 mt-1 text-muted">${topic.examples}</p></div>` : ''}
+                            </div>
                         </div>
                     </div>
                 </div>

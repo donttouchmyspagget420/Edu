@@ -25,6 +25,20 @@ footer {
     font-size: .9rem;
 }
 
+.topic-card .collapse {
+    transition: all .25s ease;
+}
+
+.topic-card .btn-outline-primary {
+    border-radius: 20px;
+    font-size: .875rem;
+}
+
+.topic-card .btn-outline-primary:hover {
+    background-color: var(--bs-primary);
+    color: #fff;
+}
+
 @keyframes fadeIn {
     from { opacity: 0; transform: translateY(10px); }
     to { opacity: 1; transform: translateY(0); }

@@ -21,7 +21,7 @@ if ($action === 'subjects') {
 
 } elseif ($action === 'topics') {
     $theme_id = (int)($_GET['theme_id'] ?? 0);
-    $stmt = $conn->prepare("SELECT id, title{$suffix} AS title, summary{$suffix} AS summary, youtube_url FROM topics WHERE theme_id = ? ORDER BY id");
+    $stmt = $conn->prepare("SELECT id, title{$suffix} AS title, summary{$suffix} AS summary, examples{$suffix} AS examples, youtube_url FROM topics WHERE theme_id = ? ORDER BY id");
     $stmt->bind_param("i", $theme_id);
     $stmt->execute();
     echo json_encode($stmt->get_result()->fetch_all(MYSQLI_ASSOC));
